@@ -1,0 +1,7 @@
+{
+  "name": "@dk-widget-cli/shared",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module"
+}
