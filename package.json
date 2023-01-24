@@ -1,0 +1,20 @@
+{
+  "name": "dk-widget-cli",
+  "version": "1.0.0",
+  "description": "小组件脚手架 🐸",
+  "main": "index.js",
+  "homepage": "https://github.com/Dokome/dk-widget-cli",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "pkg-create": "node ./scripts/create-package.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "chalk": "^5.2.0",
+    "fs-extra": "^11.1.0"
+  },
+  "type": "module"
+}
