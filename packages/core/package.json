@@ -1,20 +1,20 @@
 {
   "name": "@dk-widget-cli/core",
   "main": "lib/index.js",
-  "version": "1.0.2",
+  "author": "dokom",
+  "description": "@dk-widget-cli/core package that user can use immediatly",
+  "version": "1.0.3",
   "license": "ISC",
   "type": "module",
   "bin": {
     "dkwc": "bin/dkwc.js"
   },
-  "files": [
-    "node_modules"
-  ],
   "dependencies": {
-    "@dk-widget-cli/shared": "^1.0.0",
     "@dk-widget-cli/create": "^1.0.0",
+    "@dk-widget-cli/shared": "^1.0.0",
     "chalk": "^5.2.0",
     "commander": "^10.0.0",
+    "fs-extra": "^11.1.0",
     "import-local": "^3.1.0",
     "semver": "^7.3.8"
   }
