@@ -1,0 +1,11 @@
+{
+  "name": "@dk-widget-cli/shared",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "npmlog": "^7.0.1"
+  }
+}
