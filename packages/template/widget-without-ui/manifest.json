@@ -1,0 +1,10 @@
+{
+  "name": "<%= widgetName %>",
+  "id": "<%= widgetId %>",
+  "api": "1.0.0",
+  "editorType": ["<%= widgetEditorType %>"],
+  "permissions": [],
+  "containsWidget": true,
+  "main": "dist/code.js",
+  "widgetApi": "1.0.0"
+}
