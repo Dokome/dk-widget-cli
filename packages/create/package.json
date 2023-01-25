@@ -4,5 +4,12 @@
   "main": "lib/index.js",
   "version": "1.0.0",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@dk-widget-cli/shared": "^1.0.0",
+    "ejs": "^3.1.8",
+    "execa": "^6.1.0",
+    "glob": "^8.1.0",
+    "ora": "^6.1.2"
+  }
 }

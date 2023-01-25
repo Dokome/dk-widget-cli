@@ -2,7 +2,9 @@
   "name": "<%= widgetName %>",
   "id": "<%= widgetId %>",
   "api": "1.0.0",
-  "editorType": ["<%= widgetEditorType %>"],
+  "editorType": [
+    "jsDesign"
+  ],
   "permissions": [],
   "containsWidget": true,
   "main": "dist/code.js",

@@ -8,8 +8,13 @@
     "preinstall": "npx only-allow pnpm",
     "pkg-create": "node ./scripts/create-package.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "JsDesign",
+    "figma",
+    "即时设计",
+    "widget"
+  ],
+  "author": "dokom",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.11.18",
