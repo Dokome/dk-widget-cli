@@ -8,4 +8,4 @@ const isDebug = () =>
 log.level = isDebug() ? "verbose" : "info";
 log.heading = "dwsc";
 
-export { log };
+export { log, isDebug };

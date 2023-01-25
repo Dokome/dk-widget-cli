@@ -1,0 +1,8 @@
+{
+  "name": "@dk-widget-cli/create",
+  "description": "init a project by command create",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module"
+}

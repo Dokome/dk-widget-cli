@@ -12,6 +12,12 @@ importers:
       chalk: registry.npmmirror.com/chalk/5.2.0
       fs-extra: registry.npmmirror.com/fs-extra/11.1.0
 
+  packages/command:
+    specifiers:
+      commander: ^10.0.0
+    dependencies:
+      commander: registry.npmmirror.com/commander/10.0.0
+
   packages/core:
     specifiers:
       '@dk-widget-cli/core': ^1.0.0
@@ -26,10 +32,15 @@ importers:
       import-local: registry.npmmirror.com/import-local/3.1.0
       semver: registry.npmmirror.com/semver/7.3.8
 
+  packages/create:
+    specifiers: {}
+
   packages/shared:
     specifiers:
+      commander: ^10.0.0
       npmlog: ^7.0.1
     dependencies:
+      commander: registry.npmmirror.com/commander/10.0.0
       npmlog: registry.npmmirror.com/npmlog/7.0.1
 
 packages:
