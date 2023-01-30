@@ -22,8 +22,8 @@ importers:
       import-local: ^3.1.0
       semver: ^7.3.8
     dependencies:
-      '@dk-widget-cli/create': link:../create
-      '@dk-widget-cli/shared': link:../shared
+      '@dk-widget-cli/create': registry.npmmirror.com/@dk-widget-cli/create/1.0.0
+      '@dk-widget-cli/shared': registry.npmmirror.com/@dk-widget-cli/shared/1.0.0
       chalk: registry.npmmirror.com/chalk/5.2.0
       commander: registry.npmmirror.com/commander/10.0.0
       fs-extra: registry.npmmirror.com/fs-extra/11.1.0
@@ -385,6 +385,28 @@ packages:
       '@babel/helper-validator-identifier': registry.npmmirror.com/@babel/helper-validator-identifier/7.19.1
       to-fast-properties: registry.npmmirror.com/to-fast-properties/2.0.0
     dev: true
+
+  registry.npmmirror.com/@dk-widget-cli/create/1.0.0:
+    resolution: {integrity: sha512-hVJG71u7nzRn4qE9gqo2SAi+3NLSE2iEjcrciay12BpDqAarzB17mKChAKEPnJQjevyCQB8iUeo7yMEU1zOkPg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@dk-widget-cli/create/-/create-1.0.0.tgz}
+    name: '@dk-widget-cli/create'
+    version: 1.0.0
+    dependencies:
+      '@dk-widget-cli/shared': registry.npmmirror.com/@dk-widget-cli/shared/1.0.0
+      ejs: registry.npmmirror.com/ejs/3.1.8
+      execa: registry.npmmirror.com/execa/6.1.0
+      glob: registry.npmmirror.com/glob/8.1.0
+      ora: registry.npmmirror.com/ora/6.1.2
+    dev: false
+
+  registry.npmmirror.com/@dk-widget-cli/shared/1.0.0:
+    resolution: {integrity: sha512-mEFnPBSddq5PIF+6ipJS9YFwwOIURuF1f0yrdr7fAXaXj+XAE6sedo2xGxJ1NXRA/+zLA6kvHEQsQKcOB2TJnA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@dk-widget-cli/shared/-/shared-1.0.0.tgz}
+    name: '@dk-widget-cli/shared'
+    version: 1.0.0
+    dependencies:
+      commander: registry.npmmirror.com/commander/10.0.0
+      inquirer: registry.npmmirror.com/inquirer/9.1.4
+      npmlog: registry.npmmirror.com/npmlog/7.0.1
+    dev: false
 
   registry.npmmirror.com/@esbuild/linux-loong64/0.14.54:
     resolution: {integrity: sha512-bZBrLAIX1kpWelV0XemxBZllyRmM6vgFQQG2GdNb+r3Fkp0FOh1NJSvekXDs7jq70k4euu1cryLMfU+mTXlEpw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@esbuild/linux-loong64/-/linux-loong64-0.14.54.tgz}
