@@ -3,7 +3,7 @@
   "main": "lib/index.js",
   "author": "dokom",
   "description": "@dk-widget-cli/core package that user can use immediatly",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "ISC",
   "type": "module",
   "bin": {
